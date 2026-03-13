@@ -16,4 +16,8 @@
     <ProjectReference Include="..\clean-architecture-demo-v2.Framing\clean-architecture-demo-v2.Framing.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
