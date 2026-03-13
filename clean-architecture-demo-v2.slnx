@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="clean-architecture-demo-v2-api/clean-architecture-demo-v2-api.csproj" />
+  <Project Path="clean-architecture-demo-v2.App/clean-architecture-demo-v2.App.csproj" Id="625c1d89-d477-4b39-a981-b5e82687052f" />
+  <Project Path="clean-architecture-demo-v2.Domain/clean-architecture-demo-v2.Domain.csproj" Id="58151b45-1bba-425a-965f-0bb92e39afe4" />
+  <Project Path="clean-architecture-demo-v2.Framing/clean-architecture-demo-v2.Framing.csproj" Id="cd2ba6ed-617b-4f5e-b65a-8b77c44e7fcf" />
 </Solution>
