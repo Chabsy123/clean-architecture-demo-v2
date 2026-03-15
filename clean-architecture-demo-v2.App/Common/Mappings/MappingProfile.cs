@@ -35,7 +35,7 @@ namespace clean_architecture_demo_v2.App.Common.Mappings
                         .Where(HasInterface)
                         .ToList(); 
 
-                    if (interfaces.Count == 0) 
+                    if (interfaces.Count > 0) 
                         foreach (var @interface in interfaces)
                         { 
                             var interfaceMethodInfo = @interface.GetMethod(mappingMethodName, argumentTypes);

@@ -44,7 +44,6 @@ namespace clean_architecture_demo_v2.Framing.Repository
             return await _blogDbcontext.Blogs
                 .Where(b => b.Id == id)
                 .ExecuteUpdateAsync(setters => setters
-                    .SetProperty(p => p.Id, blog.Id)
                     .SetProperty(p => p.Name, blog.Name)
                     .SetProperty(p => p.Description, blog.Description)
                     .SetProperty(p => p.Author, blog.Author)
